@@ -1,5 +1,11 @@
+import { ContentBox } from "../components/ContentBox/ContentBox";
+
 const MainPage = () => {
-  return <div></div>;
+  return (
+    <div>
+      <ContentBox />
+    </div>
+  );
 };
 
 export default MainPage;
