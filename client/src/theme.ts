@@ -1,7 +1,7 @@
 const theme = {
   fontWeights: {
     logoBold: 900,
-    menuItemBold: 800,
+    menuItemBold: 700,
   },
   fontSizes: {
     logoFontSize: "1.5rem",
