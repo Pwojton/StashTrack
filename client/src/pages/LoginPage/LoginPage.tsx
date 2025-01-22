@@ -12,7 +12,7 @@ const LoginPage: FC = () => {
       <LoginFormContainer>
         <InputComponent placeholder="Login" />
         <InputComponent isPass={true} placeholder="Password" />
-        <ButtonComponent />
+        <ButtonComponent buttonText="Sing In" />
       </LoginFormContainer>
     </LoginPageContainer>
   );

@@ -1,8 +1,12 @@
 import { FC } from "react";
 import { StyledButton } from "./ButtonComponent.styles";
 
-const ButtonComponent: FC = () => {
-  return <StyledButton>Sing in</StyledButton>;
+interface ButtonProps {
+  buttonText: String;
+}
+
+const ButtonComponent: FC<ButtonProps> = ({ buttonText }) => {
+  return <StyledButton>{buttonText}</StyledButton>;
 };
 
 export default ButtonComponent;
