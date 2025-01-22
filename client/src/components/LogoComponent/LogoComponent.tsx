@@ -1,7 +1,8 @@
+import { FC } from "react";
 import LogoIcon from "../../assets/Logo.svg?react";
 import { LogoContainer } from "./LogoComponent.styles";
 
-const LogoComponent = () => {
+const LogoComponent: FC = () => {
   return (
     <LogoContainer>
       <LogoIcon />

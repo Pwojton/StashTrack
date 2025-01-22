@@ -37,16 +37,16 @@ export const MenuText = styled.p`
   &::after {
     content: "";
     position: absolute;
-    bottom: -4px; /* Adjusts the distance of the line from the button */
+    bottom: -4px;
     left: 0;
-    width: 0; /* Initially zero width */
-    height: 2px; /* Line height */
-    background-color: black; /* Line color */
-    transition: width 0.3s ease; /* Animation for expanding the line */
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease;
   }
 
   &:hover::after {
-    width: 100%; /* Expands the line to full width on hover */
+    width: 100%;
   }
 `;
 

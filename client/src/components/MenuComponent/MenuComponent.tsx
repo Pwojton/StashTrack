@@ -9,8 +9,9 @@ import ProfileIcon from "../../assets/ProfileIcon.svg?react";
 import PortfolioIcon from "../../assets/PortfolioIcon.svg?react";
 import useScreenWidth from "../../hooks/useScreenWidth";
 import LogoComponent from "../LogoComponent/LogoComponent";
+import { FC } from "react";
 
-const MenuComponent = () => {
+const MenuComponent: FC = () => {
   const screenWidth: number = useScreenWidth();
 
   if (screenWidth > 1024)

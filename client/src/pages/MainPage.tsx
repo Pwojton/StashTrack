@@ -1,9 +1,13 @@
-import { ContentBox } from "../components/ContentBox/ContentBox";
+import { FC } from "react";
+// import { ContentBox } from "../components/ContentBox/ContentBox";
+import { ContentBoxStyle } from "../components/ContentBox/ContentBox.styles";
 
-const MainPage = () => {
+const MainPage: FC = () => {
   return (
     <div>
-      <ContentBox />
+      <ContentBoxStyle>
+        <h1>Hi Piotr</h1>
+      </ContentBoxStyle>
     </div>
   );
 };
