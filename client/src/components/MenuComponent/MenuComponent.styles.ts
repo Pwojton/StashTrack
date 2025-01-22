@@ -9,7 +9,7 @@ export const MenuContainer = styled.div`
   width: 100%;
 
   height: 8%;
-  background-color: ${theme.colors.menuBackground};
+  background-color: ${theme.colors.backgrounds.menuBackground};
   box-shadow: ${theme.boxShadow};
   ${FlexCenter};
 

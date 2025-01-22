@@ -3,7 +3,7 @@ import theme from "../../theme";
 
 export const StyledButton = styled.button`
   color: white;
-  background-color: ${theme.colors.loginButtonBackground};
+  background-color: ${theme.colors.backgrounds.loginButtonBackground};
 
   font-size: ${theme.fontSizes.loginButtonFontSize};
 
