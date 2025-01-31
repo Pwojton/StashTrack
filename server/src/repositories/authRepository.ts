@@ -1,6 +1,6 @@
 import { User } from '../models/User';
 
-export class UserRepository {
+export class AuthRepository {
   private users: User[] = []; //temporary solution to mock database
 
   public createUser(user: User): User {

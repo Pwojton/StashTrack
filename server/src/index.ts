@@ -1,4 +1,5 @@
 import express, { Request, Response } from 'express';
+import authRouter from './routes/authRouter';
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -7,6 +8,8 @@ const PORT = process.env.PORT || 3000;
 app.get('/', (req: Request, res: Response) => {
   res.send('Hello, TypeScript + Express!');
 });
+
+app.use(authRouter);
 
 // Start the server
 app.listen(PORT, () => {

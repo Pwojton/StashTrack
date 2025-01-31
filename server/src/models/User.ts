@@ -6,3 +6,5 @@ export interface User {
   role: 'user' | 'admin';
   createdAt: Date;
 }
+
+export const users: User[] = [];
