@@ -11,14 +11,6 @@ class CustomTokenObtainPairView(TokenObtainPairView):
     Custom view for obtaining JWT authentication tokens.
     This view extends `TokenObtainPairView` to handle JWT authentication,
     returning access and refresh tokens as HttpOnly cookies upon successful login.
-
-    Methods:
-        post(request, *args, **kwargs):
-            Authenticates the user and returns tokens as HttpOnly cookies.
-    Attributes:
-        Inherits all attributes from `TokenObtainPairView`.
-    Raises:
-        AuthenticationFailed: If authentication fails due to invalid credentials.
     """
 
     def post(self, request: Request, *args: Any, **kwargs: Any) -> Response:
